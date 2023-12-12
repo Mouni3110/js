@@ -1,0 +1,27 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <button id="click"  onclick="one()" style="background-color: crimson; height: 50px;width:100px">onclick</button>
+        <h1>ONCLICK EVENT</h1>
+        <button id="focus"  onfocus="two()" style="height: 50px;width: 100px;">onfocus</button>
+        <h1>ONFOCUS EVENT</h1>
+        <button id="mouse"  onmouseout="three()" style="background-color:yellowgreen; height: 50px;width:100px">onmouseout</button>
+        <h1>ONFOCUS EVENT</h1>
+    </body>
+   <script>
+    function one(){
+     document.getElementById('click').style.backgroundColor= 'yellow'
+    }
+    </script>
+    <script>
+    function two(){
+     document.getElementById('focus').style.backgroundColor= 'blue'
+    }
+   </script> 
+    <script>
+    function three(){
+     document.getElementById('mouse').style.backgroundColor= 'pink'
+    }
+    </script>
+</html>
