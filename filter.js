@@ -10,9 +10,12 @@ let cars=[{brand:"maruthi", model:'swift',price:'800000',color:"white"},
         {brand:"maruthi", model:'grand vitara',price:'1500000',color:"white"},
         {brand:"ford", model:'eco',price:'1100000',color:"white"}]
 //print all whte color cars
+
 let new_Cars=[]
-new_Cars=cars.filter((car)=>{
-    if( car.color =='white' && car.brand=="maruthi"){
-        console.log(new_Cars) 
+cars.filter((car)=>{
+    if( car.color =="white" && car.brand=="maruthi"){
+        new_Cars.push(car)
     }
-})
+    console.log(new_Cars)         
+}
+)
